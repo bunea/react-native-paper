@@ -118,6 +118,7 @@ class Searchbar extends React.Component<Props> {
       value,
       theme,
       style,
+      color: ignoredColor,
       ...rest
     } = this.props;
     const { colors, roundness, dark } = theme;
